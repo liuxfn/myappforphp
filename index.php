@@ -8,8 +8,8 @@
 define("TOKEN", "weixin");
 define("HTTP_HOST", "xltechlab.applinzi.com");
 $wechatObj = new wechatCallbackapiTest();
-//$wechatObj->valid();
-$wechatObj->responseMsg();
+$wechatObj->valid();
+//$wechatObj->responseMsg();
 
 class wechatCallbackapiTest
 {
