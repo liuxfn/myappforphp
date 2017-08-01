@@ -6,7 +6,7 @@
 
 //define your token
 define("TOKEN", "weixin");
-define("HTTP_HOST", "xltechlab.applinzi.com");
+define("HTTP_HOST", "myapp2017.gear.host");
 $wechatObj = new wechatCallbackapiTest();
 //$wechatObj->valid();
 $wechatObj->responseMsg();
